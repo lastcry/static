@@ -1,0 +1,90 @@
+
+<!--이벤트 영역-->
+<div class="payco_evt_wrap">
+    <style scoped="scoped">
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+        html,body{width:100%;height:100%;margin:0;padding:0}
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,th,td,input,select,textarea,button{margin:0;padding:0;-webkit-text-size-adjust:none}
+        dl,ul,ol,menu,li{margin:0;padding:0;list-style:none}
+        em{font-style:normal}
+        .blind{overflow:hidden;position:absolute;top:-999px;left:-999px;width:0;height:0;font-size:0;line-height:0;white-space:nowrap}
+        .payco_evt_bx{overflow:hidden;position:relative;background:#dbd5c5;font-family:'Noto Sans KR','Apple SD Gothic Neo',sans-serif;}
+        .payco_evt_bx .sec{position:relative;width:100%;max-width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}
+        .payco_evt_bx .sec img{width:100%;max-width:100%}
+        .btn{display:inline-block;overflow:hidden;position:absolute;line-height:999px}
+        .btn.btn_link{top:84.5%;left:14.2%;width:71.6%;height:7%}
+        .btn.btn_link2{top:86.7%;left:5.8%;width:88.5%;height:4.9%}
+        .sec_noti{padding:50px 6.67%;background:#fff;font-size:0;text-align:left;-webkit-box-sizing:border-box;box-sizing:border-box}
+        .sec_noti .tit{margin-bottom:20px;font-size:20px;color:#000;font-weight:700}
+        .lst_noti li{position:relative;margin-top:9px;padding-left:10px;font-size:12px;font-weight:400;color:#424242;line-height:17px;list-style:none}
+        .lst_noti li:before{position:absolute;top:7px;left:1px;width:2px;height:2px;background:#4b4a38;content:''}
+        .lst_noti li:first-child{margin-top:0}
+        /*template*/
+        .sec_guide{padding:45px 25px;background-color:#fff}
+        .sec_guide .tit_wrap{position:relative}
+        .sec_guide .tit_wrap:after{display:block;position:absolute;top:50%;right:0;width:100%;height:1px;background-color:#333;content:''}
+        .sec_guide .tit{display:inline-block;position:relative;z-index:1;padding-right:7px;background-color:#fff;font-size:20px;line-height:29px;font-weight:bold;color:#333}
+        .sec_guide .lst_guide{margin-top:23px;margin-left:5px}
+        .sec_guide .lst_guide li{margin-top:13px;font-size:15px;line-height:20px;font-weight:bold;color:#333}
+        .sec_guide .btn{display:block;position:static;height:60px;margin-top:15px;background-color:#fa2828;font-size:18px;font-weight:bold;line-height:60px;color:#fff;text-align:center;box-sizing:border-box}
+        .sec_guide .btn:first-of-type{margin-top:35px}
+        .sec_guide .btn_color2{background-color:#000}
+        .sec_guide .btn_color3{background-color:#4a90e2}
+        .sec_guide .btn_type2{height:55px;border:2px solid #fa2828;background-color:#fff;line-height:51px;color:#fa2828}
+        .sec_guide .btn_qrcode,.sec_guide .btn_barcode{height:55px;background-color:#212632;line-height:55px}
+        .sec_guide .btn_qrcode:before,.sec_guide .btn_barcode:before{display:inline-block;overflow:hidden;background-repeat:no-repeat;background-size:100% auto;line-height:999px;vertical-align:middle;content:''}
+        .sec_guide .btn_qrcode:before{width:18px;height:18px;margin-right:13px;margin-top:-5px;background-image:url(https://image.toast.com/aaaaac/paycoNoti/ico_qrcode.png)}
+        .sec_guide .btn_barcode:before{width:20px;height:15px;margin-right:9px;margin-top:-6px;background-image:url(https://image.toast.com/aaaaac/paycoNoti/ico_barcode.png)}
+        .sec_noti{padding:45px 25px;background:#fff;font-size:0;text-align:left;-webkit-box-sizing:border-box;box-sizing:border-box}
+        /* 복권영역 */
+        .unse_area{overflow:hidden;position:absolute;bottom:15.5%;left:50%;width:88%;height:26.1%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-o-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+        .unse_area img{position:absolute;top:0;left:0;width:100%;display: none;border-top-right-radius: 20px;-webkit-border-top-right-radius: 20px;border-top-left-radius: 20px;-webkit-border-top-left-radius:20px}
+    </style>
+    <div class="payco_evt_bx">
+        <div class="sec">
+            <div class="blind">
+                <h1>복이 왔쥐</h1>
+                <p>새롭게 옷을 갈아입은 운수도원 투데이에서 2020 신년 운세도 보고 새해 복도 받아가세요!</p>
+                <h2>지금 바로 당첨을 확인해보세요.</h2>
+            </div>
+            <img src="https://image.toast.com/aaaaac/paycoNoti/evt_munse_header_191205.jpg" width="100%" alt="">
+            <div class="unse_area">
+                <img src="https://image.toast.com/aaaaac/paycoNoti/evt_munse_pop_191205.jpg" alt="" />
+            </div>
+            <a href="payco://open/webview?type=external&showTitleBarYN=N&showNavigatorYN=Y&showHomeBtnYN=N&showBrowserBtnYN=Y&target=https%3A%2F%2Funse.nhnent.com%2FautoAppLoader" class="btn btn_link"><span class="blind">이벤트 참여하기</span></a>
+        </div>
+        <div class="sec">
+            <div class="blind">
+                <h2>이벤트 상세내용</h2>
+                <dl>
+                    <dt>이벤트 기간</dt>
+                    <dd>2020. 12. 30. ~ 2020 .1 .31.</dd>
+                    <dt>이벤트 내용</dt>
+                    <dd>결과에 따라 PAYCO 모든 가맹점에서 사용 가능한 쿠폰을 드립니다.</dd>
+                    <dd>쿠폰리스트
+                        <ul>
+                            <li>신년 복 구슬 3개 PAYCO 쿠폰 10,000원</li>
+                            <li>쥐띠 구슬 3개 PAYCO 쿠폰 5,000원</li>
+                            <li>신년 복 구슬 2개 PAYCO 쿠폰 3,000원</li>
+                            <li>신년 복 구슬 1개 PAYCO 쿠폰 1,000원</li>
+                            <li>다른 띠 구슬 3개PAYCO 쿠폰 500원</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <a href="payco://open/mycoupon" class="btn btn_link2"><span class="blind">받은 쿠폰 확인하기</span></a>
+            <p class="blind">지급된 쿠폰은 PAYCO 앱 > 받은 쿠폰에서 확인 가능합니다.</p>
+            <img src="https://image.toast.com/aaaaac/paycoNoti/evt_munse_img_191205.jpg" width="100%" alt="">
+        </div>
+         <div class="sec sec_noti">
+            <h3 class="tit">이벤트 유의사항</h3>
+            <ul class="lst_noti">
+                <li>1개 아이디당 1회 참여 가능합니다.</li>
+                <li>쿠폰은 로그인 한 아이디에 제공됩니다.</li>
+                <li>준비된 쿠폰 소진 시 이벤트가 조기 종료 될 수 있습니다.</li>
+                <li>쿠폰 사용 시 가맹점 정책에 따라 일부 가맹점에서 사용이 불가 할 수 있습니다.</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!--//이벤트 영역-->
